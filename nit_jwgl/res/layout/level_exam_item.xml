@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_name_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科目: "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_name_lable"
+        android:text="科目:"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_identify_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="5dp"
+        android:text="准考证号：  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_identify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_identify_lable"
+        android:layout_toRightOf="@id/tv_identify_lable"
+        android:text="准考证号:"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_time_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_identify"
+        android:layout_marginTop="5dp"
+        android:text="考试日期:  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_time_lable"
+        android:layout_toRightOf="@id/tv_time_lable"
+        android:text="考试日期"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_sumScore_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginTop="5dp"
+        android:text="成绩:  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_sumScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_sumScore_lable"
+        android:layout_toRightOf="@id/tv_sumScore_lable"
+        android:text="成绩"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_listenScore_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sumScore"
+        android:layout_marginTop="5dp"
+        android:text="听力成绩:  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_listenScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_listenScore_lable"
+        android:layout_toRightOf="@id/tv_listenScore_lable"
+        android:text="听力成绩"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_readScore_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_listenScore"
+        android:layout_marginTop="5dp"
+        android:text="阅读成绩：  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_readScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_readScore_lable"
+        android:layout_toRightOf="@id/tv_readScore_lable"
+        android:text="阅读成绩"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_writeScore_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_readScore"
+        android:layout_marginTop="5dp"
+        android:text="写作成绩:  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_writeScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_writeScore_lable"
+        android:layout_toRightOf="@id/tv_writeScore_lable"
+        android:text="写作成绩"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_integrateScore_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_writeScore"
+        android:layout_marginTop="5dp"
+        android:text="综合成绩:  "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_integrateScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_integrateScore_lable"
+        android:layout_toRightOf="@id/tv_integrateScore_lable"
+        android:text="综合成绩"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

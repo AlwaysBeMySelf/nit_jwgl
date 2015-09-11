@@ -1,0 +1,513 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.media.MediaMetadataCompat
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.GravityCompat: void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat: void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImpl: void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImpl: void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImplBase: void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImplBase: void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImplJellybeanMr1: void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompat$GravityCompatImplJellybeanMr1: void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+android.support.v4.view.GravityCompatJellybeanMr1: void apply(int,int,int,android.graphics.Rect,android.graphics.Rect,int)
+android.support.v4.view.GravityCompatJellybeanMr1: void apply(int,int,int,android.graphics.Rect,int,int,android.graphics.Rect,int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat: java.lang.Object getInfo()
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackgroundColor(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
+android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setDistanceToTriggerSync(int)
+com.astuetz.PagerSlidingTabStrip
+com.astuetz.PagerSlidingTabStrip: PagerSlidingTabStrip(android.content.Context)
+com.astuetz.PagerSlidingTabStrip: PagerSlidingTabStrip(android.content.Context,android.util.AttributeSet)
+com.astuetz.PagerSlidingTabStrip: PagerSlidingTabStrip(android.content.Context,android.util.AttributeSet,int)
+com.astuetz.PagerSlidingTabStrip: void setViewPager(android.support.v4.view.ViewPager)
+com.astuetz.PagerSlidingTabStrip: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+com.astuetz.PagerSlidingTabStrip: void setIndicatorColor(int)
+com.astuetz.PagerSlidingTabStrip: void setIndicatorColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getIndicatorColor()
+com.astuetz.PagerSlidingTabStrip: void setIndicatorHeight(int)
+com.astuetz.PagerSlidingTabStrip: int getIndicatorHeight()
+com.astuetz.PagerSlidingTabStrip: void setUnderlineColor(int)
+com.astuetz.PagerSlidingTabStrip: void setUnderlineColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getUnderlineColor()
+com.astuetz.PagerSlidingTabStrip: void setDividerColor(int)
+com.astuetz.PagerSlidingTabStrip: void setDividerColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getDividerColor()
+com.astuetz.PagerSlidingTabStrip: void setUnderlineHeight(int)
+com.astuetz.PagerSlidingTabStrip: int getUnderlineHeight()
+com.astuetz.PagerSlidingTabStrip: void setDividerPadding(int)
+com.astuetz.PagerSlidingTabStrip: int getDividerPadding()
+com.astuetz.PagerSlidingTabStrip: void setScrollOffset(int)
+com.astuetz.PagerSlidingTabStrip: int getScrollOffset()
+com.astuetz.PagerSlidingTabStrip: void setShouldExpand(boolean)
+com.astuetz.PagerSlidingTabStrip: boolean getShouldExpand()
+com.astuetz.PagerSlidingTabStrip: void setAllCaps(boolean)
+com.astuetz.PagerSlidingTabStrip: void setTextSize(int)
+com.astuetz.PagerSlidingTabStrip: int getTextSize()
+com.astuetz.PagerSlidingTabStrip: void setTextColor(int)
+com.astuetz.PagerSlidingTabStrip: void setTextColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getTextColor()
+com.astuetz.PagerSlidingTabStrip: void setSelectedTextColor(int)
+com.astuetz.PagerSlidingTabStrip: void setSelectedTextColorResource(int)
+com.astuetz.PagerSlidingTabStrip: int getSelectedTextColor()
+com.astuetz.PagerSlidingTabStrip: void setTabBackground(int)
+com.astuetz.PagerSlidingTabStrip: int getTabBackground()
+com.astuetz.PagerSlidingTabStrip: void setTabPaddingLeftRight(int)
+com.astuetz.PagerSlidingTabStrip: int getTabPaddingLeftRight()
+com.astuetz.PagerSlidingTabStrip$SavedState
+com.astuetz.PagerSlidingTabStrip$SavedState: android.os.Parcelable$Creator CREATOR
+com.nit.gesture.BackGesture_Activity: BackGesture_Activity()
+com.nit.gesture.BackGesture_Activity: void pre(android.view.View)
+com.nit.nit_jwgl.AppInfoActivity
+com.nit.nit_jwgl.AppInfoActivity: AppInfoActivity()
+com.nit.nit_jwgl.AppInfoActivity: void pre(android.view.View)
+com.nit.nit_jwgl.Cet46ApplyActivity
+com.nit.nit_jwgl.Cet46ApplyActivity: Cet46ApplyActivity()
+com.nit.nit_jwgl.Cet46ApplyActivity: void apply(android.view.View)
+com.nit.nit_jwgl.Cet46ApplyActivity: void pre(android.view.View)
+com.nit.nit_jwgl.Cet46ScoreActivity
+com.nit.nit_jwgl.Cet46ScoreActivity: Cet46ScoreActivity()
+com.nit.nit_jwgl.Cet46ScoreActivity: void getInfo(android.view.View)
+com.nit.nit_jwgl.Cet46ScoreActivity: void pre(android.view.View)
+com.nit.nit_jwgl.CoursesActivity
+com.nit.nit_jwgl.CoursesActivity: CoursesActivity()
+com.nit.nit_jwgl.CoursesActivity: void pre(android.view.View)
+com.nit.nit_jwgl.LevelActivity
+com.nit.nit_jwgl.LevelActivity: LevelActivity()
+com.nit.nit_jwgl.LevelActivity: void pre(android.view.View)
+com.nit.nit_jwgl.LibraryCurrentBorrowActivity
+com.nit.nit_jwgl.LibraryCurrentBorrowActivity: LibraryCurrentBorrowActivity()
+com.nit.nit_jwgl.LibraryCurrentBorrowActivity: void pre(android.view.View)
+com.nit.nit_jwgl.LibraryHistoryBorrowActivity
+com.nit.nit_jwgl.LibraryHistoryBorrowActivity: LibraryHistoryBorrowActivity()
+com.nit.nit_jwgl.LibraryHistoryBorrowActivity: void pre(android.view.View)
+com.nit.nit_jwgl.LibraryLoginActivity
+com.nit.nit_jwgl.LibraryLoginActivity: LibraryLoginActivity()
+com.nit.nit_jwgl.LibraryLoginActivity: void login(android.view.View)
+com.nit.nit_jwgl.LibraryLoginActivity: void login(java.util.Map,java.lang.String)
+com.nit.nit_jwgl.LibraryLoginActivity: void pre(android.view.View)
+com.nit.nit_jwgl.LoginActivity
+com.nit.nit_jwgl.LoginActivity: LoginActivity()
+com.nit.nit_jwgl.LoginActivity: void login(android.view.View)
+com.nit.nit_jwgl.LoginActivity: void pre(android.view.View)
+com.nit.nit_jwgl.MainActivity
+com.nit.nit_jwgl.MainActivity: MainActivity()
+com.nit.nit_jwgl.PwdModifyActivity
+com.nit.nit_jwgl.PwdModifyActivity: PwdModifyActivity()
+com.nit.nit_jwgl.PwdModifyActivity: void modify(android.view.View)
+com.nit.nit_jwgl.PwdModifyActivity: void pre(android.view.View)
+com.nit.nit_jwgl.R$anim: int activity_left_out
+com.nit.nit_jwgl.R$anim: int activity_right_in
+com.nit.nit_jwgl.R$anim: int list_item_anim
+com.nit.nit_jwgl.R$array: int termArray
+com.nit.nit_jwgl.R$array: int yearArray
+com.nit.nit_jwgl.R$attr: int pstsDividerColor
+com.nit.nit_jwgl.R$attr: int pstsDividerPadding
+com.nit.nit_jwgl.R$attr: int pstsIndicatorColor
+com.nit.nit_jwgl.R$attr: int pstsIndicatorHeight
+com.nit.nit_jwgl.R$attr: int pstsScrollOffset
+com.nit.nit_jwgl.R$attr: int pstsShouldExpand
+com.nit.nit_jwgl.R$attr: int pstsTabBackground
+com.nit.nit_jwgl.R$attr: int pstsTabPaddingLeftRight
+com.nit.nit_jwgl.R$attr: int pstsTextAllCaps
+com.nit.nit_jwgl.R$attr: int pstsUnderlineColor
+com.nit.nit_jwgl.R$attr: int pstsUnderlineHeight
+com.nit.nit_jwgl.R$color: int back
+com.nit.nit_jwgl.R$color: int background_tab_pressed
+com.nit.nit_jwgl.R$color: int black
+com.nit.nit_jwgl.R$color: int btn_normal_color
+com.nit.nit_jwgl.R$color: int btn_pressed_color
+com.nit.nit_jwgl.R$color: int circle_text
+com.nit.nit_jwgl.R$color: int head_text_color
+com.nit.nit_jwgl.R$color: int header_color
+com.nit.nit_jwgl.R$color: int item_line_color
+com.nit.nit_jwgl.R$color: int item_text_color
+com.nit.nit_jwgl.R$color: int line_color
+com.nit.nit_jwgl.R$color: int line_text_color
+com.nit.nit_jwgl.R$color: int nonecolor
+com.nit.nit_jwgl.R$color: int setting_item_bg
+com.nit.nit_jwgl.R$color: int title_bg
+com.nit.nit_jwgl.R$color: int transparent
+com.nit.nit_jwgl.R$color: int white
+com.nit.nit_jwgl.R$dimen: int activity_horizontal_margin
+com.nit.nit_jwgl.R$dimen: int activity_vertical_margin
+com.nit.nit_jwgl.R$drawable: int actionbar_bg
+com.nit.nit_jwgl.R$drawable: int background_tab
+com.nit.nit_jwgl.R$drawable: int bg
+com.nit.nit_jwgl.R$drawable: int bg_course
+com.nit.nit_jwgl.R$drawable: int btn_nromal_bg
+com.nit.nit_jwgl.R$drawable: int btn_pressed_bg
+com.nit.nit_jwgl.R$drawable: int btn_style_green
+com.nit.nit_jwgl.R$drawable: int btn_style_none
+com.nit.nit_jwgl.R$drawable: int btn_style_one_disabled
+com.nit.nit_jwgl.R$drawable: int btn_style_one_focused
+com.nit.nit_jwgl.R$drawable: int btn_style_one_normal
+com.nit.nit_jwgl.R$drawable: int btn_style_one_pressed
+com.nit.nit_jwgl.R$drawable: int btn_style_white
+com.nit.nit_jwgl.R$drawable: int button_radius_off
+com.nit.nit_jwgl.R$drawable: int button_radius_on
+com.nit.nit_jwgl.R$drawable: int group_down
+com.nit.nit_jwgl.R$drawable: int group_up
+com.nit.nit_jwgl.R$drawable: int ic_lable
+com.nit.nit_jwgl.R$drawable: int ic_launcher
+com.nit.nit_jwgl.R$drawable: int kb0
+com.nit.nit_jwgl.R$drawable: int kb1
+com.nit.nit_jwgl.R$drawable: int kb10
+com.nit.nit_jwgl.R$drawable: int kb11
+com.nit.nit_jwgl.R$drawable: int kb12
+com.nit.nit_jwgl.R$drawable: int kb13
+com.nit.nit_jwgl.R$drawable: int kb2
+com.nit.nit_jwgl.R$drawable: int kb3
+com.nit.nit_jwgl.R$drawable: int kb4
+com.nit.nit_jwgl.R$drawable: int kb5
+com.nit.nit_jwgl.R$drawable: int kb6
+com.nit.nit_jwgl.R$drawable: int kb7
+com.nit.nit_jwgl.R$drawable: int kb8
+com.nit.nit_jwgl.R$drawable: int kb9
+com.nit.nit_jwgl.R$drawable: int loading_bg
+com.nit.nit_jwgl.R$drawable: int nobook
+com.nit.nit_jwgl.R$drawable: int outline
+com.nit.nit_jwgl.R$drawable: int point_left
+com.nit.nit_jwgl.R$drawable: int point_right
+com.nit.nit_jwgl.R$drawable: int rectangle
+com.nit.nit_jwgl.R$drawable: int shape
+com.nit.nit_jwgl.R$drawable: int splash
+com.nit.nit_jwgl.R$drawable: int text_item_bg
+com.nit.nit_jwgl.R$drawable: int text_item_bottom_bg
+com.nit.nit_jwgl.R$drawable: int text_item_top_bg
+com.nit.nit_jwgl.R$id: int action_settings
+com.nit.nit_jwgl.R$id: int bt_cet46_cancel
+com.nit.nit_jwgl.R$id: int bt_cet4_apply
+com.nit.nit_jwgl.R$id: int bt_cet6_apply
+com.nit.nit_jwgl.R$id: int bt_chang_pwd
+com.nit.nit_jwgl.R$id: int bt_lib_current_renew
+com.nit.nit_jwgl.R$id: int bt_library_login
+com.nit.nit_jwgl.R$id: int bt_login
+com.nit.nit_jwgl.R$id: int bt_login_jw
+com.nit.nit_jwgl.R$id: int bt_login_lib
+com.nit.nit_jwgl.R$id: int bt_login_rc
+com.nit.nit_jwgl.R$id: int bt_query
+com.nit.nit_jwgl.R$id: int bt_rollcall_login
+com.nit.nit_jwgl.R$id: int bt_title_reflash
+com.nit.nit_jwgl.R$id: int c81_forthBar
+com.nit.nit_jwgl.R$id: int cb_rollcall_name
+com.nit.nit_jwgl.R$id: int child_text
+com.nit.nit_jwgl.R$id: int courses
+com.nit.nit_jwgl.R$id: int elv_jw
+com.nit.nit_jwgl.R$id: int et_cet46_id
+com.nit.nit_jwgl.R$id: int et_cet46_name
+com.nit.nit_jwgl.R$id: int et_cet46_submit
+com.nit.nit_jwgl.R$id: int et_check_num
+com.nit.nit_jwgl.R$id: int et_library_passwd
+com.nit.nit_jwgl.R$id: int et_library_sid
+com.nit.nit_jwgl.R$id: int et_newPwd
+com.nit.nit_jwgl.R$id: int et_newPwdAgain
+com.nit.nit_jwgl.R$id: int et_oldPwd
+com.nit.nit_jwgl.R$id: int et_passwd
+com.nit.nit_jwgl.R$id: int et_rollcall_passwd
+com.nit.nit_jwgl.R$id: int et_rollcall_sid
+com.nit.nit_jwgl.R$id: int et_sid
+com.nit.nit_jwgl.R$id: int group_layout
+com.nit.nit_jwgl.R$id: int group_state
+com.nit.nit_jwgl.R$id: int group_title
+com.nit.nit_jwgl.R$id: int ib_back
+com.nit.nit_jwgl.R$id: int iv
+com.nit.nit_jwgl.R$id: int iv_lib_current_image
+com.nit.nit_jwgl.R$id: int ll_info
+com.nit.nit_jwgl.R$id: int ll_level
+com.nit.nit_jwgl.R$id: int ll_lib_current
+com.nit.nit_jwgl.R$id: int ll_resit
+com.nit.nit_jwgl.R$id: int ll_score
+com.nit.nit_jwgl.R$id: int ll_title_back
+com.nit.nit_jwgl.R$id: int lv_level
+com.nit.nit_jwgl.R$id: int lv_lib_current
+com.nit.nit_jwgl.R$id: int lv_lib_main
+com.nit.nit_jwgl.R$id: int lv_resit
+com.nit.nit_jwgl.R$id: int lv_rollcall_history
+com.nit.nit_jwgl.R$id: int lv_rollcall_main
+com.nit.nit_jwgl.R$id: int lv_rollcall_menber
+com.nit.nit_jwgl.R$id: int lv_score
+com.nit.nit_jwgl.R$id: int pager
+com.nit.nit_jwgl.R$id: int progressBar1
+com.nit.nit_jwgl.R$id: int scrollview
+com.nit.nit_jwgl.R$id: int sp_term
+com.nit.nit_jwgl.R$id: int sp_year
+com.nit.nit_jwgl.R$id: int tabs
+com.nit.nit_jwgl.R$id: int tb_jw_login
+com.nit.nit_jwgl.R$id: int tb_library_login
+com.nit.nit_jwgl.R$id: int tb_rollcall_auto
+com.nit.nit_jwgl.R$id: int tb_rollcall_login
+com.nit.nit_jwgl.R$id: int tv_app_developer
+com.nit.nit_jwgl.R$id: int tv_app_name
+com.nit.nit_jwgl.R$id: int tv_cet46_Info
+com.nit.nit_jwgl.R$id: int tv_cet46_alert
+com.nit.nit_jwgl.R$id: int tv_cet46_apply_alert
+com.nit.nit_jwgl.R$id: int tv_copyright
+com.nit.nit_jwgl.R$id: int tv_forward
+com.nit.nit_jwgl.R$id: int tv_identify
+com.nit.nit_jwgl.R$id: int tv_identify_lable
+com.nit.nit_jwgl.R$id: int tv_integrateScore
+com.nit.nit_jwgl.R$id: int tv_integrateScore_lable
+com.nit.nit_jwgl.R$id: int tv_lable
+com.nit.nit_jwgl.R$id: int tv_level
+com.nit.nit_jwgl.R$id: int tv_lib_alert
+com.nit.nit_jwgl.R$id: int tv_lib_allLend
+com.nit.nit_jwgl.R$id: int tv_lib_current_info
+com.nit.nit_jwgl.R$id: int tv_lib_history_item
+com.nit.nit_jwgl.R$id: int tv_listenScore
+com.nit.nit_jwgl.R$id: int tv_listenScore_lable
+com.nit.nit_jwgl.R$id: int tv_loading
+com.nit.nit_jwgl.R$id: int tv_name
+com.nit.nit_jwgl.R$id: int tv_name_lable
+com.nit.nit_jwgl.R$id: int tv_place
+com.nit.nit_jwgl.R$id: int tv_pwdAlert
+com.nit.nit_jwgl.R$id: int tv_readScore
+com.nit.nit_jwgl.R$id: int tv_readScore_lable
+com.nit.nit_jwgl.R$id: int tv_resit
+com.nit.nit_jwgl.R$id: int tv_rollcall_his_date
+com.nit.nit_jwgl.R$id: int tv_rollcall_his_status
+com.nit.nit_jwgl.R$id: int tv_rollcall_time
+com.nit.nit_jwgl.R$id: int tv_score
+com.nit.nit_jwgl.R$id: int tv_score_item
+com.nit.nit_jwgl.R$id: int tv_seat
+com.nit.nit_jwgl.R$id: int tv_sumScore
+com.nit.nit_jwgl.R$id: int tv_sumScore_lable
+com.nit.nit_jwgl.R$id: int tv_time
+com.nit.nit_jwgl.R$id: int tv_time_lable
+com.nit.nit_jwgl.R$id: int tv_writeScore
+com.nit.nit_jwgl.R$id: int tv_writeScore_lable
+com.nit.nit_jwgl.R$id: int weekend
+com.nit.nit_jwgl.R$layout: int activity_main
+com.nit.nit_jwgl.R$layout: int app_info
+com.nit.nit_jwgl.R$layout: int cet46_apply
+com.nit.nit_jwgl.R$layout: int cet46_score
+com.nit.nit_jwgl.R$layout: int child_layout
+com.nit.nit_jwgl.R$layout: int courses
+com.nit.nit_jwgl.R$layout: int group_layout
+com.nit.nit_jwgl.R$layout: int jw_fragment
+com.nit.nit_jwgl.R$layout: int level_exam
+com.nit.nit_jwgl.R$layout: int level_exam_item
+com.nit.nit_jwgl.R$layout: int lib_current_item
+com.nit.nit_jwgl.R$layout: int lib_history_item
+com.nit.nit_jwgl.R$layout: int library_borrow
+com.nit.nit_jwgl.R$layout: int library_fragment
+com.nit.nit_jwgl.R$layout: int library_login
+com.nit.nit_jwgl.R$layout: int loading
+com.nit.nit_jwgl.R$layout: int login
+com.nit.nit_jwgl.R$layout: int lv_footer
+com.nit.nit_jwgl.R$layout: int pwd_modify
+com.nit.nit_jwgl.R$layout: int resit
+com.nit.nit_jwgl.R$layout: int resit_item
+com.nit.nit_jwgl.R$layout: int rollcall_fragment
+com.nit.nit_jwgl.R$layout: int rollcall_history
+com.nit.nit_jwgl.R$layout: int rollcall_history_item
+com.nit.nit_jwgl.R$layout: int rollcall_item
+com.nit.nit_jwgl.R$layout: int rollcall_login
+com.nit.nit_jwgl.R$layout: int rollcall_main
+com.nit.nit_jwgl.R$layout: int score
+com.nit.nit_jwgl.R$layout: int score_item
+com.nit.nit_jwgl.R$layout: int splash
+com.nit.nit_jwgl.R$layout: int title
+com.nit.nit_jwgl.R$menu: int main
+com.nit.nit_jwgl.R$string: int action_settings
+com.nit.nit_jwgl.R$string: int app
+com.nit.nit_jwgl.R$string: int app_info
+com.nit.nit_jwgl.R$string: int app_name
+com.nit.nit_jwgl.R$string: int bt
+com.nit.nit_jwgl.R$string: int bt_change_pwd
+com.nit.nit_jwgl.R$string: int bt_exit_cancel
+com.nit.nit_jwgl.R$string: int bt_exit_ok
+com.nit.nit_jwgl.R$string: int bt_highest
+com.nit.nit_jwgl.R$string: int bt_jw_login
+com.nit.nit_jwgl.R$string: int bt_login
+com.nit.nit_jwgl.R$string: int bt_query
+com.nit.nit_jwgl.R$string: int bt_unpass
+com.nit.nit_jwgl.R$string: int et_check_num
+com.nit.nit_jwgl.R$string: int et_newPwd
+com.nit.nit_jwgl.R$string: int et_newPwdAgain
+com.nit.nit_jwgl.R$string: int et_oldPwd
+com.nit.nit_jwgl.R$string: int et_passwd
+com.nit.nit_jwgl.R$string: int et_sid
+com.nit.nit_jwgl.R$string: int exitBy2Click
+com.nit.nit_jwgl.R$string: int hello_world
+com.nit.nit_jwgl.R$string: int ib_captche
+com.nit.nit_jwgl.R$string: int tb_rollcall_auto_login
+com.nit.nit_jwgl.R$string: int tb_store_user
+com.nit.nit_jwgl.R$string: int tv_back
+com.nit.nit_jwgl.R$string: int tv_name
+com.nit.nit_jwgl.R$string: int tv_place
+com.nit.nit_jwgl.R$string: int tv_seat
+com.nit.nit_jwgl.R$string: int tv_term
+com.nit.nit_jwgl.R$string: int tv_time
+com.nit.nit_jwgl.R$string: int tv_week1
+com.nit.nit_jwgl.R$string: int tv_week2
+com.nit.nit_jwgl.R$string: int tv_week3
+com.nit.nit_jwgl.R$string: int tv_week4
+com.nit.nit_jwgl.R$string: int tv_week5
+com.nit.nit_jwgl.R$string: int tv_week6
+com.nit.nit_jwgl.R$string: int tv_week7
+com.nit.nit_jwgl.R$string: int tv_year
+com.nit.nit_jwgl.R$style: int AlertFont
+com.nit.nit_jwgl.R$style: int AppBaseTheme
+com.nit.nit_jwgl.R$style: int AppTheme
+com.nit.nit_jwgl.R$style: int LableFont
+com.nit.nit_jwgl.R$style: int MyDialogStyle
+com.nit.nit_jwgl.R$style: int TitleTheme
+com.nit.nit_jwgl.R$style: int titelbg
+com.nit.nit_jwgl.R$styleable: int[] PagerSlidingTabStrip
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsDividerColor
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsDividerPadding
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsIndicatorColor
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsIndicatorHeight
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsScrollOffset
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsShouldExpand
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsTabBackground
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsTabPaddingLeftRight
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsTextAllCaps
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsUnderlineColor
+com.nit.nit_jwgl.R$styleable: int PagerSlidingTabStrip_pstsUnderlineHeight
+com.nit.nit_jwgl.ResitActivity
+com.nit.nit_jwgl.ResitActivity: ResitActivity()
+com.nit.nit_jwgl.ResitActivity: void pre(android.view.View)
+com.nit.nit_jwgl.RollCallHistoryActivity
+com.nit.nit_jwgl.RollCallHistoryActivity: RollCallHistoryActivity()
+com.nit.nit_jwgl.RollCallHistoryActivity: void pre(android.view.View)
+com.nit.nit_jwgl.RollCallLoginActivity
+com.nit.nit_jwgl.RollCallLoginActivity: RollCallLoginActivity()
+com.nit.nit_jwgl.RollCallLoginActivity: void login(android.view.View)
+com.nit.nit_jwgl.RollCallLoginActivity: void login(java.util.Map,java.lang.String)
+com.nit.nit_jwgl.RollCallLoginActivity: void pre(android.view.View)
+com.nit.nit_jwgl.RollCallMainActivity
+com.nit.nit_jwgl.RollCallMainActivity: RollCallMainActivity()
+com.nit.nit_jwgl.RollCallMainActivity: void submit(android.view.View)
+com.nit.nit_jwgl.RollCallMainActivity: void pre(android.view.View)
+com.nit.nit_jwgl.ScoreActivity
+com.nit.nit_jwgl.ScoreActivity: ScoreActivity()
+com.nit.nit_jwgl.ScoreActivity: void getHighest(android.view.View)
+com.nit.nit_jwgl.ScoreActivity: void getUnpass(android.view.View)
+com.nit.nit_jwgl.ScoreActivity: void getquery(android.view.View)
+com.nit.nit_jwgl.ScoreActivity: void pre(android.view.View)
+com.nit.nit_jwgl.SplashActivity
+com.nit.nit_jwgl.SplashActivity: SplashActivity()
+com.nit.service.Cet46Service: void getInfo(java.util.Map,java.lang.String)
+com.nit.service.CourseService: void getInfo(java.lang.String,java.lang.String)
+com.nit.service.LevelService: void getInfo(java.lang.String,java.lang.String)
+com.nit.service.ResitService: void getInfo(java.lang.String,java.lang.String)
+com.nit.view.CourseLayout
+com.nit.view.CourseLayout: CourseLayout(android.content.Context)
+com.nit.view.CourseLayout: CourseLayout(android.content.Context,android.util.AttributeSet)
+com.nit.view.CourseLayout: CourseLayout(android.content.Context,android.util.AttributeSet,int)
+com.nit.view.CourseLayout: int getScreenWidth()
+com.nit.view.CourseView: int getStartSection()
+com.nit.view.CourseView: void setStartSection(int)
+com.nit.view.CourseView: int getEndSection()
+com.nit.view.CourseView: void setEndSection(int)
+com.nit.view.CourseView: int getWeek()
+com.nit.view.CourseView: void setWeek(int)
+com.zcw.togglebutton.R$attr: int animate
+com.zcw.togglebutton.R$attr: int borderWidth
+com.zcw.togglebutton.R$attr: int offBorderColor
+com.zcw.togglebutton.R$attr: int offColor
+com.zcw.togglebutton.R$attr: int onColor
+com.zcw.togglebutton.R$attr: int spotColor
+com.zcw.togglebutton.R$styleable: int[] ToggleButton
+com.zcw.togglebutton.R$styleable: int ToggleButton_animate
+com.zcw.togglebutton.R$styleable: int ToggleButton_borderWidth
+com.zcw.togglebutton.R$styleable: int ToggleButton_offBorderColor
+com.zcw.togglebutton.R$styleable: int ToggleButton_offColor
+com.zcw.togglebutton.R$styleable: int ToggleButton_onColor
+com.zcw.togglebutton.R$styleable: int ToggleButton_spotColor
+com.zcw.togglebutton.ToggleButton
+com.zcw.togglebutton.ToggleButton: ToggleButton(android.content.Context)
+com.zcw.togglebutton.ToggleButton: ToggleButton(android.content.Context,android.util.AttributeSet,int)
+com.zcw.togglebutton.ToggleButton: ToggleButton(android.content.Context,android.util.AttributeSet)
+com.zcw.togglebutton.ToggleButton: void setup(android.util.AttributeSet)
+com.zcw.togglebutton.ToggleButton: void setToggleOn(boolean)
+com.zcw.togglebutton.ToggleButton: void setToggleOff(boolean)
+com.zcw.togglebutton.ToggleButton: void setOnToggleChanged(com.zcw.togglebutton.ToggleButton$OnToggleChanged)

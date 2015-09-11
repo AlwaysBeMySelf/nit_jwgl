@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:id="@+id/weekend"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week1"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week2"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week3"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week4"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week5"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week6"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/kb0"
+            android:gravity="center"
+            android:text="@string/tv_week7"
+            android:textColor="#2e94da"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <com.nit.view.CircleRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:AniBackColor="#ff8b90af"
+        app:AniForeColor="#ffffffff"
+        app:CircleSmaller="6" >
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:soundEffectsEnabled="true" >
+
+            <com.nit.view.CourseLayout
+                android:id="@+id/courses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_course"
+                android:scaleType="fitXY" >
+            </com.nit.view.CourseLayout>
+        </ScrollView>
+    </com.nit.view.CircleRefreshLayout>
+
+</LinearLayout>

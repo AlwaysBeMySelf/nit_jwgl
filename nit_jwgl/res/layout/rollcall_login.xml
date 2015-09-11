@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_rollcall_sid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="@string/et_sid"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/et_rollcall_passwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/shape"
+            android:hint="@string/et_passwd"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical" >
+
+            <com.zcw.togglebutton.ToggleButton
+                android:id="@+id/tb_rollcall_login"
+                android:layout_width="54dp"
+                android:layout_height="30dp" >
+            </com.zcw.togglebutton.ToggleButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/tb_store_user"
+                android:textColor="#ffffff" />
+
+            <com.zcw.togglebutton.ToggleButton
+                android:id="@+id/tb_rollcall_auto"
+                android:layout_width="54dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp" >
+            </com.zcw.togglebutton.ToggleButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/tb_rollcall_auto_login"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_rollcall_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_style_green"
+            android:gravity="center"
+            android:onClick="login"
+            android:text="@string/bt_login" />
+    </LinearLayout>
+
+</LinearLayout>

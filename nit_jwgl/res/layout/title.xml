@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/actionbar_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/ll_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/nonecolor"
+            android:src="@drawable/point_left" />
+
+        <TextView
+            android:id="@+id/tv_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/tv_back"
+            android:textColor="@drawable/btn_style_none"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="rtedtrecgt"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/bt_title_reflash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:text="刷新"
+        android:textColor="@drawable/btn_style_none"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

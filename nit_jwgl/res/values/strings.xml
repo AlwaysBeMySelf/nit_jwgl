@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">nit教务管理</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="et_passwd">密码</string>
+    <string name="et_sid">学号</string>
+    <string name="et_check_num">验证码</string>
+    <string name="tb_store_user">记住密码</string>
+    <string name="bt_login">登录</string>
+    <string name="tv_seat">座位</string>
+    <string name="tv_place">地点</string>
+    <string name="tv_time">考试时间</string>
+    <string name="tv_name">学科</string>
+    <string name="et_oldPwd">原密码</string>
+    <string name="et_newPwd">新密码</string>
+    <string name="et_newPwdAgain">再次输入新密码</string>
+    <string name="bt_change_pwd">修改</string>
+    <string name="bt_exit_ok">退出</string>
+    <string name="bt_exit_cancel">取消</string>
+    <string name="tv_year">学年:</string>
+    <string name="tv_term">学期:</string>
+    <string name="bt">成绩查询</string>
+    <string name="bt_query">成绩查询</string>
+    <string name="bt_unpass">未通过成绩</string>
+    <string name="bt_highest">课程最高成绩</string>
+    <string name="tv_week1">周一</string>
+    <string name="tv_week2">周二</string>
+    <string name="tv_week3">周三</string>
+    <string name="tv_week4">周四</string>
+    <string name="tv_week5">周五</string>
+    <string name="tv_week6">周六</string>
+    <string name="tv_week7">周日</string>
+    <string name="app">军师：nitapi.hiunique.com/jwxt\\n\\n大将：距离</string>
+    <string name="app_info">军师：nitapi.hiunique.com/jwxt\\n\\n大将：距离</string>
+    <string name="ib_captche">验证码</string>
+    <string name="exitBy2Click">再按一次退出程序</string>
+    <string name="tv_back">功能区</string>
+    <string name="bt_jw_login">登录</string>
+    <string name="tb_rollcall_auto_login">自动登录</string>
+
+</resources>

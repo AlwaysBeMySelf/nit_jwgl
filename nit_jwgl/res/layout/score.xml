@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_year"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/sp_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/yearArray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_term"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/sp_term"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/termArray" />
+
+        <Button
+            android:id="@+id/bt_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_white"
+            android:onClick="getquery"
+            android:text="@string/bt_query" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_style_white"
+            android:onClick="getHighest"
+            android:text="@string/bt_highest" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_style_white"
+            android:onClick="getUnpass"
+            android:text="@string/bt_unpass" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#69E715"
+            android:textSize="35sp" />
+
+        <ListView
+            android:id="@+id/lv_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
